@@ -1,0 +1,149 @@
+
+/* --- reset --- */
+* {
+
+    /* block */
+    padding: 0;
+    margin: 0;
+
+    /* letter */
+    text-decoration: none;
+}
+
+/* --- body --- */
+body {
+    
+    /* block */
+    padding: 120px 0;
+}
+
+.container {
+    
+    /* block */
+    width: 1200px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+/* --- header --- */
+header {
+
+    /* position */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    
+    /* block */
+    opacity: 0.9;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(to right, #640125, #a22041);
+    box-shadow: 0 6px #410808;
+}
+
+header .container {
+
+    /* display */
+    display: flex;
+
+    /* block */
+    width: 90%;
+    padding: 0;
+}
+
+.header-title {
+
+    /* display */
+    display: block;
+
+    /* block */
+    width: 360px;
+
+    /* letter */
+    color: white;
+    font-size: 48px;
+    line-height: 90px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.header-title:hover {
+
+    /* block */
+    background: #410808;
+
+    /* animation */
+    transition: all 1s;
+}
+
+.return {
+    
+    /* display */
+    display: flex;
+
+    /* block */
+    background: #640125;
+    width: 300px;
+    height: 70px;
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-left: auto;
+
+    /* letter */
+    color: white;
+    font-size: 42px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.return:hover {
+
+    /* block */
+    background: white;
+    border-right: 3px solid #410808;
+    border-bottom: 3px solid #410808;
+
+    /* letter */
+    color: #640125;
+
+    /* animation */
+    transition: all 1s;
+}
+
+.return:hover i {
+    
+    /* letter */
+    color: #640125;
+    
+    /* animation */
+    transition: all 1s;
+}
+
+.return div {
+
+    /* block */
+    margin-left: auto;
+}
+.return i {
+
+    /* position */
+    position: relative;
+    top: 3px;
+    left: 8px;
+
+    /* display */
+    display: block;
+    
+    /* block */
+    margin-left: 10px;
+    margin-right: auto;
+
+    /* letter */
+    color: white;
+    font-size: 36px;
+    line-height: 70px;
+
+    /* animation */
+    transform: rotate(90deg);
+}
