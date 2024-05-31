@@ -64,7 +64,6 @@
     color: blue;
     text-decoration: underline;
 }
-
 .task-19 a[class="www"] {
     color: blue;
     text-decoration: underline;
@@ -72,7 +71,6 @@
 .task-19 a[class="www"]:hover {
     text-decoration: none;
 }
-
 .task-20 #test a[class="www"] {
     color: red;
 }
@@ -80,7 +78,6 @@
     color: skyblue;
     text-decoration: underline;
 }
-
 .task-21 .eee a[class="www"] {
     color: pink;
 }
